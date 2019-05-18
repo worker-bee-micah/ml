@@ -1,19 +1,16 @@
 # ml
-Machine Learning installs and model selections
-Python module scikit-learn
-Install Apache Soark
-Generate data sets that 
+Machine Learning installs and model selections.
 
-Mushroom dataset used to evaluate common machine learning tests.
+First install the Python module scikit-learn.  The documentation [site]{https://scikit-learn.org/stable/}.
 
-Paste these notebook URLs into NBviewer if you do not have Python installed.
-
-Follow this link to NBviewer hosted on the Python.org site if this notebook does not render in Github.
-
-I have some SQLite3 examples in this notebook, 
-https://nbviewer.jupyter.org/github/worker-bee-micah/sql/blob/master/00_mt_SQLite_builds.ipynb
+Generate data sets of random data to compare 
 
 
-Some basic Oracle based code examples, you should be able to paste these code blocks into SQL*Develper
+The Mushroom example dataset from [Kaggle]{https://www.kaggle.com/nirajvermafcb/comparing-various-ml-models-roc-curve-comparison}] is used to evaluate common machine learning tests.
 
-https://nbviewer.jupyter.org/github/worker-bee-micah/sql/blob/master/00_mt_SQL_Oracle_core_builds.ipynb
+This [notebook]{https://nbviewer.jupyter.org/github/worker-bee-micah/ml/blob/master/00_mt_ml_catagorical_seaborn_core_build.ipynb} is a rewrite of the above mentioned kernel and mixed with code from a Pluralsight course by [Janani Ravi]{https://www.pluralsight.com/courses/seaborn-visualizing-statistical-data}. You will need to import seaborn, pandas and matplotlib to follow along. This is a good example of a dataset that does not contain any numerical columns, these Python modules make it easy to perform math on categorical data.
+
+
+Paste the notebook URLs into NBviewer on the Python.org site if your browser is not rendering it properly or do not have Python installed.  Think of this as read only mode, you will not be able to interact with the cells.
+
+
